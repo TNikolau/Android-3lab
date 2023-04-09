@@ -21,6 +21,7 @@ buildscript {
         archLifecycleVersion = '1.1.1'
         gradleVersion = '4.1.0'
         supportlibVersion = '1.2.0'
+        navigationVersion = "2.3.0"
         dataBindingCompilerVersion = gradleVersion // Always need to be the same.
     }
     repositories {
@@ -34,6 +35,7 @@ buildscript {
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
     }
+
 }
 
 allprojects {
